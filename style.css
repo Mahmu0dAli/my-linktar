@@ -19,11 +19,12 @@ body{
 }
 
 .container{
-    align-items: center;
+    display: block;
+
     background-color: brown;
     padding: 10px;
-    max-width: 60px;
-    margin: 0 auto;
+    max-width: 30px;
+    
 }
 .preview {
     width: 38px;
