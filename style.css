@@ -18,9 +18,17 @@ body{
     width: 450px;
 }
 
-.rgite{
+.container{
+    align-items: center;
     background-color: brown;
-    width: 40px;
+    padding: 10px;
+    max-width: 60px;
+    margin: 0 auto;
+}
+.preview {
+    width: 38px;
+    height: 38px;
+    
 }
 .profile{
     display: flex;
