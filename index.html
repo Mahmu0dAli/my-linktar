@@ -11,7 +11,13 @@
     
         
     <div class="menu">
-        
+        <div class="login">
+            <h3>login</h3>
+            <input type="text" id="username" placeholder="username">
+            <input type="password" id="password" placeholder="password">
+            <button onclick="login()">Entry</button>
+            <p id="msg"></p>
+        </div>
         <ul>
             <li class="profile">
                     
@@ -24,10 +30,7 @@
                     <img width="38" height="38" src="https://img.icons8.com/liquid-glass/48/twitter-circled.png" alt="twitter-circled"/>
                     <p>X</p>
                      <!-- مكان عرض الصورة -->
-                <div id="previewContainer">
-                    <img id="previewImage" class="preview" style="display: none;">
-                </div>
-                    
+                
                 </a>
             </li>
 
@@ -69,18 +72,11 @@
         </ul>
         
     </div>
-    <div class="container">
-        <h2>رفع وعرض الصورة</h2>
-        
-        <!-- حقل رفع الملف -->
-        <input type="file" id="imageInput" accept="image/*">
-        
-       
-    </div>
+    
     <footer>
 
     </footer>
     
 </body>
-<script src="/LinkTar/script.js"></script>
+<script src="script.js"></script>                   
 </html>

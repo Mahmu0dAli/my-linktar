@@ -18,19 +18,6 @@ body{
     width: 450px;
 }
 
-.container{
-    display: block;
-
-    background-color: brown;
-    padding: 10px;
-    max-width: 30px;
-    
-}
-.preview {
-    width: 38px;
-    height: 38px;
-    
-}
 .profile{
     display: flex;
     flex-direction: column;
